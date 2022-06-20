@@ -38,3 +38,15 @@ console.log(rex.intro());
 console.log(rex.intro());
 console.log(rex.intro());
 console.log(rex.intro());
+console.log('----------Cat-----------');
+
+const Cat = require('./js/Cat.js');
+
+const katinas = new Cat('Katinas', '"Juodas naminis"');
+console.log(katinas.getMouse());
+console.log(katinas.getMouse());
+console.log(katinas.getMouse());
+console.log(katinas.getMouse());
+
+console.log(katinas.intro());
+console.log(katinas.voice());
